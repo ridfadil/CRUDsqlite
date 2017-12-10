@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fadil.databasesqlite.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Aplikasi Data Mahasiswa"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="TAMBAH DATA"
+        android:id="@+id/tdata"
+        android:textSize="28sp"
+        android:layout_weight="1"
+        android:background="@color/bluee"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="LIHAT DATA"
+        android:id="@+id/ldata"
+        android:textSize="28sp"
+        android:layout_weight="1"
+        android:background="@color/grens"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="EDIT DATA"
+        android:textSize="28sp"
+        android:id="@+id/edata"
+        android:layout_weight="1"
+        android:background="@color/yells"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="HAPUS DATA"
+        android:textSize="28sp"
+        android:id="@+id/hdata"
+        android:layout_weight="1"
+        android:background="@color/browns"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Databasesqlite</string>
+    <string name="nama">Masukan Nama</string>
+    <string name="nim">Masukan Nim</string>
+    <string name="kelas">Masukan kelas</string>
+    <string name="jurusan">Masukan jurusan</string>
+</resources>
